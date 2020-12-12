@@ -1,4 +1,7 @@
-black #formatar o codigp
+flask
+
+[dev]
+black
 flake8
 flask-debugtoolbar
 flask-shell-ipython
