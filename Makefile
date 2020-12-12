@@ -13,3 +13,11 @@ clean:
 	
 install:
 	pip install -e .['dev']
+
+test:
+	pytest --cov=delivery tests/ -v
+
+run:
+	export FLASK_ENV=development
+	export FLASk_APP=delivery/app.py
+	flask run
